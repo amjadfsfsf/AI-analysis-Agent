@@ -1,38 +1,60 @@
 # 🤖 AI Analysis Agent
 
-An AI-powered workflow built with **n8n** that automatically analyzes datasets using Large Language Models (LLMs) and generates an interactive Business Intelligence dashboard.
+> An AI-powered Business Intelligence Automation Workflow built with **n8n** that transforms raw datasets into interactive dashboards, KPI reports, and business insights using Large Language Models (LLMs).
 
 ---
 
-## 🚀 Features
+## 📌 Overview
+
+AI Analysis Agent is an end-to-end data analysis workflow developed using **n8n**.
+
+The workflow automatically accepts structured datasets, analyzes them with AI, generates meaningful business insights, creates interactive visualizations, and exports professional reports without requiring manual analysis.
+
+It is designed to automate repetitive Business Intelligence tasks and significantly reduce the time required to analyze datasets.
+
+---
+
+## ✨ Features
 
 - 📂 Upload CSV, Excel, or JSON datasets
-- 🧠 AI-powered dataset understanding
+- 🤖 AI-powered dataset understanding
 - 📊 Automatic KPI generation
-- 📈 Interactive charts
-- 📉 Data profiling
-- ✅ Data quality analysis
-- 🔍 Automatic business insights
-- 📄 HTML dashboard generation
-- 🖨️ Export dashboard
-- ⚡ Fully automated workflow using n8n
+- 📈 Interactive Business Intelligence Dashboard
+- 📉 Data Profiling
+- ✅ Data Quality Analysis
+- 🧠 Automatic Business Insights
+- 📋 Dataset Metadata Extraction
+- 📄 HTML Dashboard Generation
+- 📑 PDF Report Generation
+- 🖨️ Print-ready Reports
+- 📷 Dashboard Export
+- ⚡ Fully Automated Workflow
+- 🔄 No-Code Automation using n8n
 
 ---
 
-## Workflow
+# 🏗 Workflow Architecture
 
-![Workflow](images/workflow.png)
+<p align="center">
+<img src="images/workflow.png" width="100%">
+</p>
+
+The workflow orchestrates multiple AI and automation components to generate a complete Business Intelligence report automatically.
 
 ---
 
-## Generated Dashboard
+# 📊 Generated Dashboard
 
-The workflow automatically generates an interactive HTML dashboard including:
+<p align="center">
+<img src="images/dashboard-overview.png" width="90%">
+</p>
 
-- Dataset Overview
-- Business Metadata
+The generated dashboard includes:
+
+- Executive Overview
 - KPI Cards
-- Data Quality Report
+- Dataset Statistics
+- Data Quality Metrics
 - Column Profiling
 - Interactive Charts
 - Searchable Data Table
@@ -41,62 +63,111 @@ The workflow automatically generates an interactive HTML dashboard including:
 
 ---
 
-## Technologies
+# 📈 Dashboard Preview
+
+| Overview | Charts |
+|----------|--------|
+| ![](images/dashboard-overview.png) | ![](images/dashboard-charts.png) |
+
+| Profiling | Data Table |
+|-----------|------------|
+| ![](images/dashboard-profiling.png) | ![](images/dashboard-table.png) |
+
+---
+
+# ⚙️ Technologies Used
 
 - n8n
 - OpenAI API
 - JavaScript
-- HTML
+- HTML5
 - Apache ECharts
 - JSON
 - AI Agents
+- Prompt Engineering
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```
-AI-analysis-Agent/
+AI-analysis-Agent
 │
-├── workflows/
+├── workflows
 │   └── AI-analysis-Agent.json
 │
-├── output/
-│   └── Business_Intelligence_Dashboard.html
+├── output
+│   ├── Business_Intelligence_Dashboard.html
+│   └── Business_Report.pdf
 │
-├── images/
+├── images
 │   ├── workflow.png
-│   └── dashboard.png
+│   ├── dashboard-overview.png
+│   ├── dashboard-charts.png
+│   ├── dashboard-profiling.png
+│   └── dashboard-table.png
 │
 └── README.md
 ```
 
 ---
 
-## Example Output
+# 🚀 Generated Outputs
 
-The generated HTML dashboard contains:
+The workflow automatically generates:
 
-- Executive Dashboard
-- Interactive Charts
-- KPI Metrics
+- 📄 Interactive HTML Dashboard
+- 📑 Professional PDF Report
+- 📊 KPI Summary
+- 📈 Interactive Charts
+- 📋 Data Profiling Report
+- 📉 Data Quality Analysis
+- 📌 Dataset Metadata
+- 💡 AI Business Insights
+
+---
+
+# 💼 Use Cases
+
+- Business Intelligence
+- Data Analysis Automation
+- Executive Reporting
+- Retail Analytics
+- Financial Reporting
+- Sales Analysis
 - Data Profiling
-- Dataset Statistics
-- Business Insights
+- AI-powered Reporting
 
 ---
 
-## Future Improvements
+# ▶️ How to Use
 
-- PDF Report Generation
-- Power BI Integration
-- Microsoft Fabric Integration
-- Azure AI Integration
-- Multi-file Analysis
-- Automated Report Emailing
+1. Import the workflow into n8n.
+2. Configure your AI credentials.
+3. Upload a dataset (CSV, Excel, or JSON).
+4. Execute the workflow.
+5. The workflow automatically generates:
+   - Interactive Dashboard
+   - PDF Report
+   - KPI Summary
+   - Business Insights
 
 ---
 
-## License
+# 📄 Example Output
 
-MIT
+The generated dashboard provides:
+
+- Interactive visualizations
+- Professional KPI cards
+- Executive summaries
+- Dataset profiling
+- Data quality metrics
+- Searchable data table
+- Exportable reports
+
+---
+
+# 📜 License
+
+MIT License
